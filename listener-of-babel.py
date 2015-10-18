@@ -52,6 +52,8 @@ page = storyURLParts[9]
 
 storyURL = babel_base_url+storyLoc+"-w"+w+"-s"+s+"-v"+v+":"+page
 
+print "Finding your phrase in the library..."
+
 webbrowser.open(storyURL)
 
 #TODO Next, need to highlight the text in question... (Use a weird span trick, like it does "originally")
